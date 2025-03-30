@@ -11,6 +11,11 @@ separate linker namespaces.
   a variant of [hax_loader](https://forge.runxiyu.org/hax/:/repos/hax_loader/)?
 - `typeof` is a GNU extension. It could be avoided by using macros.
 
+## Limitations
+
+- There may be issues with TLS.
+- The glibc implementation supports a maximum of 16 namespaces.
+
 ## Contribute
 
 Create a branch that begins with `contrib/` and push to
